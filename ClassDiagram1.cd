@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DiffGestureDelegate">
+    <Position X="5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACgAAAAQIAAAQAAAAIAAEEAAAgAAAAJABAI=</HashCode>
+      <FileName>Assets\StateMachine\Scripts\Script_2_0\DiffGestureDelegate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="GestureSource" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="listeners" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DiffState">
+    <Position X="9.5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAgABgAyACAAAQAAAIYBAAAAIAAAAAAMAAAAAAAAA=</HashCode>
+      <FileName>Assets\StateMachine\Scripts\Script_2_0\DiffState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gDelegate" />
+      <Field Name="ActiveChild" />
+      <Field Name="FirstChild" />
+      <Field Name="Parent" />
+      <Field Name="RootState" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="demoneStates" />
+      <Field Name="EdgeEndState" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DiffPolarGBase">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAgECAQAAAAAIAAgIAAAIAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\StateMachine\Scripts\Script_2_0\DiffPolarGBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="listeners" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="UnityEngine.GameObject" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
