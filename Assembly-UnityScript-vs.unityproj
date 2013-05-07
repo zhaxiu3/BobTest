@@ -44,9 +44,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SpritePacker\Scripts\SpritePacker\ExplosionExample\Old Assets\Emit.js" />
-     <Compile Include="Assets\SpritePacker\Scripts\SpritePacker\ExplosionExample\Old Assets\Explosion.js" />
-     <Compile Include="Assets\SpritePacker\Scripts\SpritePacker\ExplosionExample\Old Assets\ExplosionStreamer.js" />
      <Compile Include="Assets\Vectrosity\VectrosityDemos\Scripts\Curve\CurvePointControl.js" />
      <Compile Include="Assets\Vectrosity\VectrosityDemos\Scripts\Curve\DrawCurve.js" />
      <Compile Include="Assets\Vectrosity\VectrosityDemos\Scripts\Curve\SimpleCurve.js" />
@@ -83,10 +80,11 @@
      <Compile Include="Assets\Vectrosity\VectrosityDemos\Scripts\_Simple3DObject\Simple3D 2.js" />
      <Compile Include="Assets\Vectrosity\VectrosityDemos\Scripts\_Simple3DObject\Simple3D 3.js" />
      <Compile Include="Assets\Vectrosity\VectrosityDemos\Scripts\_Simple3DObject\Simple3D.js" />
+     <Compile Include="Assets\WowCharacterMovementAndCamera\Scripts\AnimationController.js" />
+     <Compile Include="Assets\WowCharacterMovementAndCamera\Scripts\UnderWaterFog.js" />
+     <Compile Include="Assets\WowCharacterMovementAndCamera\Scripts\WowCharacterMovement.js" />
      <None Include="Assets\Vectrosity\VectrosityDemos\Shaders\ParticleZwrite.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-Alpha-Diffuse.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\BlendAlpha.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\Add+1.shader" />
      <None Include="Assets\Vectrosity\VectrosityDemos\Shaders\Unlit .shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-Alpha-VertexLit.shader" />
      <None Include="Assets\PlayMaker\Readme.txt" />
@@ -97,39 +95,33 @@
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\Temp\TempShader.shader" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\CoinPartyExample\CoinShader.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-AlphaTest-VertexLit.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\PackedBlend.shader" />
+     <None Include="Assets\WowCharacterMovementAndCamera\Standard Assets\Skyboxes\ skybox info.txt" />
      <None Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\release_history.txt" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-AlphaTest-Diffuse.shader" />
      <None Include="Assets\BobShaderTest\Shaders\RevealBackFaces.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-Diffuse.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\README.txt" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\CoinPartyExample\Add+1.shader" />
      <None Include="Assets\BobShaderTest\Shaders\TestCombine.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\AddAlpha.shader" />
      <None Include="Assets\Vectrosity\Pro Standard Assets\Image Based\GlowEffectDownsample.shader" />
      <None Include="Assets\BobShaderTest\Shaders\alphaControlledSelfillumation.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-Alpha-TargetBumped.shader" />
      <None Include="Assets\VideoTexture\Resources\Shaders\UlitTransParam.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-AlphaTest-Bumped.shader" />
      <None Include="Assets\BobShaderTest\Shaders\SecondGlass.shader" />
+     <None Include="Assets\WowCharacterMovementAndCamera\Shaders\FX-UnderwaterSurface.shader" />
      <None Include="Assets\StrumpyShaderEditor\shaders\VertexModification.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\SolidAlpha.shader" />
      <None Include="Assets\BobShaderTest\Shaders\SimpleAddictive.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\AddSmooth+1.shader" />
+     <None Include="Assets\WowCharacterMovementAndCamera\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-Alpha-Bumped.shader" />
      <None Include="Assets\Electricity\Shaders\lightning.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\PackedCutout.shader" />
      <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\DecalSystem.Runtime.xml" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-AlphaTest-TargetBumped.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-Alpha-Bumped.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Decal-AlphaTest-TargetBumped.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\CoinPartyExample\COINPARTY README.txt" />
      <None Include="Assets\BobShaderTest\Shaders\SimpleGlass.shader" />
      <None Include="Assets\Ruins\Scripts\Plugins\Decals\Shader\Mobile\Mobile-Decal-AlphaTest-Diffuse.shader" />
-     <None Include="Assets\SpritePacker\Scripts\SpritePacker\Shaders\PackedAdd.shader" />
+     <None Include="Assets\WowCharacterMovementAndCamera\License.txt" />
      <None Include="Assets\Vectrosity\VectrosityDemos\Shaders\DepthMask.shader" />
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
@@ -140,26 +132,17 @@
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
- <Reference Include="MySql.Data">
- <HintPath>Assets\BobMySQl\Plugins\MySql.Data.dll</HintPath>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.dll</HintPath>
  </Reference>
- <Reference Include="System.Data">
- <HintPath>Assets\BobMySQl\Plugins\System.Data.dll</HintPath>
- </Reference>
- <Reference Include="System.Drawing">
- <HintPath>Assets\BobMySQl\Plugins\System.Drawing.dll</HintPath>
+ <Reference Include="PlayMaker">
+ <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="DecalSystem.Runtime">
  <HintPath>Assets\Ruins\Scripts\Plugins\Decals\DecalSystem.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Vectrosity_Unity3">
  <HintPath>Assets\Vectrosity\Vectrosity_Unity3.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>Assets\Photon Unity Networking\Plugins\PhotonNetwork\library\Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="PlayMaker">
- <HintPath>Assets\PlayMaker\PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
